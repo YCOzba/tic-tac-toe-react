@@ -38,5 +38,47 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #818;
 }
+
+
+body{
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  font-family: sans-serif;
+
+}
+
+.board-row{
+  display:flex;
+}
+
+.square{
+  width: 100px;
+  height: 100px;
+  background: #14bdac;
+  border:2px solid #0da192;
+  font-size: 48px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  padding: 0;
+
+}
+
+.square:hover{
+  background: #0da192;
+}
+
+.status{
+  color:white;
+  margin-bottom:20px;
+  font-size:24px;
+  text-align:center;
+
+}
+
